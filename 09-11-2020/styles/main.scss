@@ -1,0 +1,19 @@
+ $height: 50px;
+ $width: 50px;
+ 
+ .square {
+     margin: 100px auto;
+     width: 351px;
+     height: 280px;
+     background-color: #7fffd4;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+
+    div {
+        margin: 10px 10px;
+        width: $height;
+        height: $width;
+        background-color: blanchedalmond;
+        }
+ }
